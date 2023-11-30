@@ -1,7 +1,7 @@
 # 🚀 NGROK to deSEC Tunnel Script
 - This script will help you to create a tunnel to your local Minecraft server using Ngrok and deSEC.
 - Creates an Ngrok TCP tunnel and sets the required DNS records on deSEC.
-- Opens your local Minecraft server to tje world without any hassle. 
+- Opens your local Minecraft server to the world without any hassle. 
 - Port forwarding, firewall settings or any other configuration is not required, everything is handled by Ngrok and deSEC.
 
 # 🏃 How to use
