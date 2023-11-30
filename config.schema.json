@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "NDSS Config Schema",
+    "description": "NDSS config schema for validating `config.json` files.",
+    "type": "object",
+    "properties": {
+        "NGROK_TCP_PORT": {
+            "description": "Minecraft server port, default is 25565",
+            "type": "number"
+        },
+        "NGROK_AUTH_TOKEN": {
+            "description": "ngrok auth token, get it from https://dashboard.ngrok.com/auth/your-authtoken",
+            "type": "string"
+        },
+        "DESEC_API_TOKEN": {
+            "description": "deSEC API token, get it from https://desec.io/tokens => + => Save",
+            "type": "string"
+        },
+        "DESEC_DOMAIN": {
+            "description": "deSEC domain name",
+            "type": "string"
+        },
+        "DESEC_CNAME_RECORD_NAME": {
+            "description": "deSEC record name (server), create a CNAME record in your deSEC dashboard and set the subname to this value (you can put example.com to target for now)",
+            "type": "string"
+        },
+        "DESEC_SRV_RECORD_NAME": {
+            "description": "deSEC record subname (play), use this while connecting to your server), create an SRV record in your deSEC dashboard and set the subname to this value (you can put your CLOUDFLARE_CNAME_RECORD_NAME variable to target for now)",
+            "type": "string"
+        }
+    },
+    "required": [
+        "NGROK_TCP_PORT",
+        "NGROK_AUTH_TOKEN",
+        "DESEC_API_TOKEN",
+        "DESEC_DOMAIN",
+        "DESEC_CNAME_RECORD_NAME",
+        "DESEC_SRV_RECORD_NAME"
+    ]
+}

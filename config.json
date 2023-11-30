@@ -1,0 +1,9 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Minionguyjpro/NDSS/main/config.schema.json",
+    "NGROK_TCP_PORT": 25565,
+    "NGROK_AUTH_TOKEN": "",
+    "DESEC_API_TOKEN": "",
+    "DESEC_DOMAIN": "",
+    "DESEC_CNAME_RECORD_NAME": "server",
+    "DESEC_SRV_RECORD_NAME": "play"
+}
