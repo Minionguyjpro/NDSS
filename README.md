@@ -8,7 +8,7 @@
 - Clone this repository
 - Copy `ndss.example.sh` to `ndss.sh` and edit it with your details.
 - Create a CNAME record on your deSEC DNS dashboard (Instructions in `ndss.sh` file)
-- Create a SRV record on your deSEC DNS dashboard (Instructions in `ndss.sh` file)
+- Create an SRV record on your deSEC DNS dashboard (Instructions in `ndss.sh` file)
 - Run `ndss.sh` and wait
 - You (and everyone in the world!) can now connect to your Minecraft server using your domain name.
 
