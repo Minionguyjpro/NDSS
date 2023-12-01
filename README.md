@@ -27,7 +27,7 @@ Feel free to use GitHub's features.
 Give a ⭐️ if this project helped you!
 
 # 👏 Credits
-Thanks to [barbarbar338](https://github.com/barbarbar338) for the base of this project, ncfs. It's a project that allows you to do the exact same, but instead of deSEC it uses a CloudFlare domain. This project is based on it, but is for deSEC domains (which are free) instead.
+Thanks to [barbarbar338](https://github.com/barbarbar338) for the base of this project, [ncfs](https://github.com/barbarbar338/ncfs). It's a project that allows you to do the exact same, but instead of deSEC it uses a CloudFlare domain. This project is based on it, but is for deSEC domains (which are free) instead.
 
 # 📞 Contact
 
