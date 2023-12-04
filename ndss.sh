@@ -142,7 +142,7 @@ fi
 srv_record_id=$(echo "$srv_record" | sed -E 's/.*"id":"(\w+)".*/\1/')
 
 # Starting ngrok
-echo "🚀 NCFS: Starting NGROK..."
+echo "🚀 NDSS: Starting NGROK..."
 
 # Set NGROK auth token
 echo "🔑 NGROK: Setting NGROK auth token..."
